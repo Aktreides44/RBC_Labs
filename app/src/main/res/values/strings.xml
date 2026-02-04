@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RBC Labs</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_base_activitty">BaseActivitty</string>
+    <string name="title_activity_medical_details">MedicalDetailsActivity</string>
+    <string name="title_activity_book_appointment">BookAppointmentActivity</string>
+    <string name="title_activity_change_booking">ChangeBookingActivity</string>
+</resources>

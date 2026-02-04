@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856497335848",
+    "project_id": "rbc-labs-f97a3",
+    "storage_bucket": "rbc-labs-f97a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856497335848:android:938936d4b18980af0c4f1d",
+        "android_client_info": {
+          "package_name": "com.example.rbclabs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwgXapU9bl0XXCMkxTIxd2pwTOJdH0Y0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

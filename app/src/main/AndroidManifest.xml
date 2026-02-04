@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rbclabs">
+
+    <!-- Internet access for Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Notification permission (Android 13+) -->
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        tools:targetApi="33" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RBC"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+        <!-- LOGIN (Launcher) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- REGISTER -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- MAIN DASHBOARD -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- MEDICAL DETAILS -->
+        <activity
+            android:name=".MedicalDetailsActivity"
+            android:exported="false" />
+
+        <!-- BOOK APPOINTMENT -->
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+
+        <!-- CHANGE BOOKING -->
+        <activity
+            android:name=".ChangeBookingActivity"
+            android:exported="false" />
+
+        <!-- BOOKING HISTORY -->
+        <activity
+            android:name=".BookingHistoryActivity"
+            android:exported="false" />
+
+        <!-- DELETE BOOKING -->
+        <activity
+            android:name=".DeleteBookingActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
